@@ -632,6 +632,8 @@ require('lazy').setup({
           end,
         },
       }
+
+      require('lspconfig').lua_ls.setup({capabilities = capabilities})
     end,
   },
 
